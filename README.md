@@ -76,12 +76,12 @@ Clone the repositor below.
 │   └── Recommendations_with_IBM_history.ipynb
 ├── LICENSE
 ├── README.md
-├── example.gif
+├── example_1.gif
 ```
 
 <a name="results"></a>
 ## Results
-![Python shell](https://github.com/dalpengholic/Udacity_Recommendations_with_IBM/blob/master/example.gif)
+![Python shell](https://github.com/dalpengholic/Udacity_Recommendations_with_IBM/blob/master/example_1.gif)
 
 
 <a name="license"></a>
