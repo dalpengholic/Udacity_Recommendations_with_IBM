@@ -11,10 +11,7 @@
    3. [Run](#run)
 3. [File Structure](#file_structure)
 4. [Results](#results)
-   1. [Web app](#web_app)
-   2. [Things to be improved](#things_to_be_improved)
 5. [License](#license)
-6. [Acknowledgements](#acknowledgements)
 
 <a name="about_the_project"></a>
 ## About the Project
@@ -73,20 +70,21 @@ Clone the repositor below.
 ├── model
 │   ├── recommendation.py
 │   └── recommendation_functions.py
+├── notebook
+│   ├── Recommendations_with_IBM.html
+│   └── Recommendations_with_IBM.ipynb
+│   └── Recommendations_with_IBM_history.ipynb
 ├── LICENSE
 ├── README.md
-├── Recommendations_with_IBM.html
-├── Recommendations_with_IBM.ipynb
-├── Recommendations_with_IBM_history.ipynb
+├── example.gif
 ```
 
 <a name="results"></a>
 ## Results
+![Python shell](https://github.com/dalpengholic/Udacity_Recommendations_with_IBM/blob/master/example.gif)
 
-### Things to be improved
 
 <a name="license"></a>
-
 ## License
 
 This source code is made available under the [MIT License](https://github.com/dalpengholic/Udacity_Recommendations_with_IBM/blob/master/LICENSE).
