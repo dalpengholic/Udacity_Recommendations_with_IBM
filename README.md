@@ -17,23 +17,21 @@
 6. [Acknowledgements](#acknowledgements)
 
 <a name="about_the_project"></a>
-
 ## About the Project
 
 This is one of 2nd term projects of Data Science Nanodegree Program by Udacity. The goal of the project is to create recommendations system to recommend relevant articles to the users of IBM Watson Studio platform. The recommendation systemd consists of three methods. The brief summary of the methods described below.
 
-1. Knowledge Based Recommendations : This method recommends articles based on the popularity of articles. The popluarity is simply measured the total number of interaction with users. The recommended articles are shown in the order in which they are read most.
+1. Knowledge Based Recommendations : This recommends articles based on the popularity of articles. The popluarity is simply measured the total number of interaction with users. The recommended articles are shown in the order in which they are read most.
 
-2. Collaborative Filtering Based Recommendations : This method finds similar users to the user of interest first and put them in order of closeness to the reference user. Then it recommends articles that are read by simliar users but not read by the user of interest.
+2. Collaborative Filtering Based Recommendations : This finds similar users to the user of interest first and put them in order of closeness to the user. Then it recommends articles that are read by simliar users but not read by the user of interest.
 
-3. Content Based Recommendations : This method works if a user has a preference of an article. This finds and suggest similar articles found by NLP (Natural language processing) of the description of articles in the dataset.
+3. Content Based Recommendations : This method works in case a user has read an article. This finds and suggest similar articles found by NLP (Natural language processing) of the description of articles in the dataset.
+
 
 <a name="how_to_use"></a>
-
 ## How to Use
 
 <a name="dependency"></a>
-
 ### Dependency
 
 The code should run with no issues using Python versions 3.\* with the libararies as follows.
@@ -41,40 +39,49 @@ The code should run with no issues using Python versions 3.\* with the libararie
 - Numpy, Pandas, Scikit-Learn, Pickle, NLTK
 
 <a name="installation"></a>
-
 ### Installation
 
 Clone the repositor below.
 `https://github.com/dalpengholic/Udacity_Recommendations_with_IBM.git`
+
 <a name="run"></a>
-
 ### Run
+1.  Go to the project's model directory.
 
-1.  Open jupyter notebook in the project's root directory.
+2.  Open python shell and input following commands in the directory.
+    1. `python`
+    2. `from recommendation import Recommender`
+    3. `rec = Recommender()`
+    4. `rec.fit('../data/user-item-interactions.csv', '../data/articles_community.csv')`
+    
+3.  Use recommendation engine with following commands.
+    1. `rec.recommend()` : The top 10 most popular articles
+    2. `rec.recommend(user_id = 14)` : Recommendation for user_id 14
+    3. `rec.recommend(user_id = 10000)` : Recommendation for new user
+    4. `rec.recommend(article_id = 1427)` : Recommendation for the user read or interested in article 1427
+    5. `rec.recommend(user_id = 12, article_id = 1427)` : Raise a message like `input only user_id or article_id`
 
-2.  Run the following command in the app's directory to run your web app.
-    `python run.py`
-
+    
 
 <a name="file_structure"></a>
-
 ## File Structure
 
 ```
 ├── data
 │   ├── articles_community.csv
 │   └── user-item-interactions.csv
-│
+├── model
+│   ├── recommendation.py
+│   └── recommendation_functions.py
+├── LICENSE
 ├── README.md
+├── Recommendations_with_IBM.html
+├── Recommendations_with_IBM.ipynb
+├── Recommendations_with_IBM_history.ipynb
 ```
 
 <a name="results"></a>
-
 ## Results
-
-<a name="web_app"></a>
-
-### Web App
 
 ### Things to be improved
 
@@ -82,8 +89,4 @@ Clone the repositor below.
 
 ## License
 
-This source code is made available under the [MIT License](https://github.com/dalpengholic/Udacity_ML_Titanic_survivors/blob/master/LICENSE).
-
-<a name="acknowledgements"></a>
-
-## Acknowledgements
+This source code is made available under the [MIT License](https://github.com/dalpengholic/Udacity_Recommendations_with_IBM/blob/master/LICENSE).
