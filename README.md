@@ -18,7 +18,7 @@
 
 This is one of 2nd term projects of Data Science Nanodegree Program by Udacity. The goal of the project is to create recommendations system to recommend relevant articles to the users of IBM Watson Studio platform. The recommendation system consists of three methods. The brief summary of the methods described below.
 
-1. Knowledge Based Recommendations : This recommends articles based on the popularity of articles. The popluarity is simply measured the total number of interaction with users. The recommended articles are shown in the order in which they are read most.
+1. Knowledge Based Recommendations : This recommends articles based on the popularity of articles. The popularity is simply measured the total number of interaction with users. The recommended articles are shown in the order in which they are read most.
 
 2. Collaborative Filtering Based Recommendations : This finds similar users to the user of interest first and put them in order of closeness to the user. Then it recommends articles that are read by simliar users but not read by the user of interest.
 
