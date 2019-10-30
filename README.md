@@ -20,7 +20,7 @@ This is one of 2nd term projects of Data Science Nanodegree Program by Udacity. 
 
 1. Knowledge Based Recommendations : This recommends articles based on the popularity of articles. The popularity is simply measured the total number of interaction with users. The recommended articles are shown in the order in which they are read most.
 
-2. Collaborative Filtering Based Recommendations : This finds similar users to the user of interest first and put them in order of closeness to the user. Then it recommends articles that are read by simliar users but not read by the user of interest.
+2. Collaborative Filtering Based Recommendations : This finds similar users to the user of interest first and put them in order of closeness to the user. Then it recommends articles that are read by similar users but not read by the user of interest.
 
 3. Content Based Recommendations : This method works in case a user has read an article. This finds and suggest similar articles found by NLP (Natural language processing) of the description of articles in the dataset.
 
@@ -33,12 +33,12 @@ This is one of 2nd term projects of Data Science Nanodegree Program by Udacity. 
 
 The code should run with no issues using Python versions 3.\* with the libararies as follows.
 
-- Numpy, Pandas, Scikit-Learn, Pickle, NLTK
+- Numpy, Pandas, scikit-Learn, Pickle, NLTK
 
 <a name="installation"></a>
 ### Installation
 
-Clone the repositor below.
+Clone the repository below.
 `https://github.com/dalpengholic/Udacity_Recommendations_with_IBM.git`
 
 <a name="run"></a>
