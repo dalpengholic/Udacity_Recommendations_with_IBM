@@ -1,4 +1,4 @@
-# Udacity Data Scientist Nanodegree program
+# Udacity Data Scientist Nanodegree Program
 
 ## Recommendations with IBM
 
@@ -22,7 +22,7 @@ This is one of 2nd term projects of Data Science Nanodegree Program by Udacity. 
 
 2. Collaborative Filtering Based Recommendations : This finds similar users to the user of interest first and put them in order of closeness to the user. Then it recommends articles that are read by similar users but not read by the user of interest.
 
-3. Content Based Recommendations : This method works in case a user has read an article. This finds and suggest similar articles found by NLP (Natural language processing) of the description of articles in the dataset.
+3. Content Based Recommendations : This method works in case a user has read an article. This finds and suggests similar articles found by NLP (Natural language processing) of the description of articles in the dataset.
 
 
 <a name="how_to_use"></a>
