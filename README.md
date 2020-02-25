@@ -39,6 +39,7 @@ The code should run with no issues using Python versions 3.\* with the libararie
 ### Installation
 
 Clone the repository below.
+
 `https://github.com/dalpengholic/Udacity_Recommendations_with_IBM.git`
 
 <a name="run"></a>
